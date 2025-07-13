@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TaskSectionTitle" parent="TextAppearance.ToDo.Headline1">
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="NavigationDrawerStyle" parent="TextAppearance.ToDo.Body">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.ToDo.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemTextAppearance">@style/TextAppearance.ToDo.Body</item>
+    </style>
+</resources> 
